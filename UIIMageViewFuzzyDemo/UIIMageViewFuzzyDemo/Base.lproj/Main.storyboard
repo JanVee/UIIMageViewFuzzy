@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dBb-c7-WlF">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="cVj-7J-Tnf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bpS-aM-eNe">
+                                <rect key="frame" x="0.0" y="293" width="320" height="275"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="275" id="U93-zz-uJQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="bpS-aM-eNe" secondAttribute="bottom" id="1e2-na-AJk"/>
+                            <constraint firstItem="dBb-c7-WlF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="6OY-aS-04h"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bpS-aM-eNe" secondAttribute="trailing" constant="-16" id="Bpy-RN-9Bm"/>
+                            <constraint firstItem="bpS-aM-eNe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Xih-Km-yYq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dBb-c7-WlF" secondAttribute="trailing" constant="-16" id="Z7G-Bt-rSh"/>
+                            <constraint firstItem="dBb-c7-WlF" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="syJ-Wk-j4f"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="imageDemo" destination="bpS-aM-eNe" id="lxH-CY-wn3"/>
+                        <outlet property="imageView" destination="dBb-c7-WlF" id="v9w-mk-NFu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="341"/>
+        </scene>
+    </scenes>
+</document>

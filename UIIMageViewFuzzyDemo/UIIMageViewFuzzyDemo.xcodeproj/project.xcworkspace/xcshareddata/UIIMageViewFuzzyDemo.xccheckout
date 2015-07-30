@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BC4D8173-30A5-48CF-82BA-6158E980E7C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0450AF4034E00CC057C0C95F0B92D1C1F365C68</key>
+		<string>https://github.com/JanVee/UIIMageViewFuzzy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIIMageViewFuzzyDemo/UIIMageViewFuzzyDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0450AF4034E00CC057C0C95F0B92D1C1F365C68</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JanVee/UIIMageViewFuzzy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0450AF4034E00CC057C0C95F0B92D1C1F365C68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0450AF4034E00CC057C0C95F0B92D1C1F365C68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIIMageViewFuzzy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
